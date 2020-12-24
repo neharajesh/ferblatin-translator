@@ -10,7 +10,7 @@ textarea {
 }
 
 #output {
-    border: 1px solid red;
+    border: 1px solid black;
     height : 10vh;
     width: 80%;
     margin: 1rem;
@@ -47,4 +47,10 @@ textarea {
     max-width: 600px;
     text-align: center;
     margin: auto;
+}
+
+#error-handler {
+    border: solid 1px red;
+    background-color: red;
+    color: white;
 }
