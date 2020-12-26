@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+body {
+    background-image: url('/images/phineasferb.jpg');
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 250%;
+}
+
 textarea {
     height: 10vh;
     margin: 1rem;
@@ -6,7 +14,12 @@ textarea {
     width: 80%;
     text-align: left;
     padding-left: 3.2rem;
-    
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
 }
 
 #output {
@@ -41,6 +54,7 @@ textarea {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 5rem;
 }
 
 .container-center {
@@ -53,4 +67,5 @@ textarea {
     border: solid 1px red;
     background-color: red;
     color: white;
+    display: hidden;
 }
